@@ -1,7 +1,7 @@
 .navbar-nav > li {
     width: 20%;
     text-align: center;
-
+    float: left;
 }
 
 .navbar-nav > li > a {
@@ -57,4 +57,10 @@ img.bg {
         left: 50%;
         margin-left: -512px; /* 50% */
     }
+}
+
+.gallery{
+
+    width: 30%;
+
 }

@@ -25,52 +25,76 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <link rel="stylesheet" href="/css/styles.css">
 
+    {{--PHOTO VIEWER LINKS--}}
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="/css/photoviewer/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/photoviewer/default-skin/default-skin.css">
+
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+    <script src="/js/gallery.js"></script>
+    {{--PHOTO VIEWER LINKS END--}}
+
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-
-    <div class="text-center">
-        <a class="navbar-brand" href="/" title="">
-            <img class="brand" src="/images/brand.jpeg">
-        </a>
+<nav class="navbar navbar-default navbar-fluid-top">
+    <div class="container">
+        <div class="text-center">
+            <a class="navbar-brand" href="/" title="">
+                <img class="brand" src="/images/brand.jpeg">
+            </a>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        @yield('content')
     </div>
 
-</nav>
 
-<div class="custom-container">
-    @yield('content')
-</div>
+@include('pages.gallery')
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
 
-    <ul style="width: 100%" class="nav navbar-nav">
-        <li>
-            <a href="/info">
-                <img class="nav-image" src="/images/info.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="/images/gallery.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="/images/map.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="/images/calendar.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="/registration">
-                <img src="/images/registration.svg" alt="">
-            </a>
-        </li>
-    </ul>
+        <ul style="width: 100%" class="nav navbar-nav">
+            <li>
+                <a href="/info">
+                    <img class="nav-image" src="/images/info.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/gallery" id="gallery">
+                    <img src="/images/gallery.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/images/map.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/images/calendar.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/registration">
+                    <img src="/images/registration.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>
+
 </body>
 </html>
 

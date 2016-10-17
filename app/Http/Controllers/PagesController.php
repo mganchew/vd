@@ -14,4 +14,9 @@ class PagesController extends Controller
         return view('pages.welcome');
     }
 
+    public function info()
+    {
+        return view('pages.info');
+    }
+
 }

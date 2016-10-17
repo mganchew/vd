@@ -45,7 +45,7 @@
 
     <ul style="width: 100%" class="nav navbar-nav">
         <li>
-            <a href="">
+            <a href="/info">
                 <img class="nav-image" src="/images/info.svg" alt="">
             </a>
         </li>

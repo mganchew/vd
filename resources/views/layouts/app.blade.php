@@ -1,7 +1,7 @@
 <html>
 <head>
 
-    <title>Document</title>
+    <title>Игрище за минифутбол</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,7 +65,7 @@
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="/registration">
                 <img src="/images/registration.svg" alt="">
             </a>
         </li>

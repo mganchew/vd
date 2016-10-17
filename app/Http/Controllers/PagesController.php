@@ -19,4 +19,11 @@ class PagesController extends Controller
         return view('pages.info');
     }
 
+    public function registration()
+    {
+
+        return view('pages.registration');
+
+    }
+
 }

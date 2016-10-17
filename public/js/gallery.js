@@ -35,10 +35,18 @@ function getGalleryData() {
 $(document).ready(function () {
 
     var gallery = $('#gallery');
+    var phone = $('#phone');
+
     console.log(gallery);
     gallery.click(function (e) {
         e.preventDefault();
         getGalleryData();
     });
+
+    phone.attr('href', 'registration');
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        phone.attr('href', 'tel: 0888 88 88 88');
+    }
 
 });

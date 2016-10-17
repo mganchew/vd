@@ -40,4 +40,10 @@ class PagesController extends Controller
         return $gallery;
     }
 
+    public function map(){
+
+        return view('pages.map');
+
+    }
+
 }

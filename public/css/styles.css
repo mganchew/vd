@@ -9,8 +9,16 @@
     padding-bottom: 1px !important;
 }
 
+.container{
+    width: 100%;
+}
+
 .navbar {
     min-height: 20px !important
+}
+
+#map {
+    height: 84%;
 }
 
 .homepage-text {
@@ -59,7 +67,7 @@ img.bg {
     }
 }
 
-.gallery{
+.gallery {
 
     width: 30%;
 

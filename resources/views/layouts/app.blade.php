@@ -5,6 +5,8 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Игрище за мини футбол">
+    <meta name="Keywords" content="игрище, зала, мини футбол, футбол, футзал">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- JavaScripts -->
@@ -77,7 +79,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/map">
                     <img src="/images/map.svg" alt="">
                 </a>
             </li>
@@ -87,7 +89,7 @@
                 </a>
             </li>
             <li>
-                <a href="/registration">
+                <a id="phone" href="#">
                     <img src="/images/registration.svg" alt="">
                 </a>
             </li>

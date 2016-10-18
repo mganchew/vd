@@ -11,7 +11,7 @@
 
         </div>
         <div class="col-sm-4">
-            <h1 class="homepage-text">Игрище за минифутбол</h1>
+            <h1 class="homepage-text">Игрище за минифутбол <br> ARENA VELD</h1>
         </div>
 
     </div>

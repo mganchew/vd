@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 87px;
+}
+
 .navbar-nav > li {
     width: 20%;
     text-align: center;
@@ -9,7 +13,7 @@
     padding-bottom: 1px !important;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
@@ -27,7 +31,6 @@
 }
 
 .custom-container {
-    overflow-x: hidden;
     padding-top: 70px;
     position: absolute;
     min-height: 100%;

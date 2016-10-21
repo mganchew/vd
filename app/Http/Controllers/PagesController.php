@@ -46,4 +46,10 @@ class PagesController extends Controller
 
     }
 
+    public function calendar(){
+
+        return view('pages.calendar');
+
+    }
+
 }

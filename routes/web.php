@@ -17,3 +17,4 @@ Route::get('/info', 'PagesController@info');
 Route::get('/registration', 'PagesController@registration');
 Route::get('/gallery', 'PagesController@gallery');
 Route::get('/map', 'PagesController@map');
+Route::get('/calendar', 'PagesController@calendar');

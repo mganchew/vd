@@ -52,7 +52,7 @@
     <div class="container">
         <div class="text-center">
             <a class="navbar-brand" href="/" title="">
-                <img class="brand" src="/images/brand.jpeg">
+                <img class="brand" src="/images/brand.jpg">
             </a>
         </div>
     </div>
@@ -84,7 +84,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/calendar">
                     <img src="/images/calendar.svg" alt="">
                 </a>
             </li>

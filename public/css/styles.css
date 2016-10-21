@@ -2,6 +2,10 @@ body {
     padding-bottom: 87px;
 }
 
+.calendars{
+    padding-left: 10%;
+}
+
 .navbar-nav > li {
     width: 20%;
     text-align: center;
@@ -26,7 +30,7 @@ body {
 }
 
 .homepage-text {
-    padding-top: 100%;
+
     color: whitesmoke;
 }
 

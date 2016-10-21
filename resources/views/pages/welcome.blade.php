@@ -10,8 +10,9 @@
         <div class="col-sm-4">
 
         </div>
-        <div class="col-sm-4">
-            <h1 class="homepage-text">Игрище за минифутбол <br> ARENA VELD</h1>
+        <div class="col-sm-4 text-center">
+            <h1 class="homepage-text">Игрище за минифутбол <br></h1>
+            <img class="img-circle" style="width: 40%;" src="/images/brand.jpg" alt="">
         </div>
 
     </div>

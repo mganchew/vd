@@ -31,4 +31,17 @@
         </div>
 
     </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div style="padding-left: 7%">
+            <h3>Цена</h3>
+            Игрище футбол 5 : 60 лв.
+            <br>
+            Игрище футбол 7 : 90 лв.
+            <br>
+            Игрище футбол 9 : 120 лв.
+                </div>
+        </div>
+        <div class="col-sm-6"></div>
+    </div>
 @endsection

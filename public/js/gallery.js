@@ -46,7 +46,7 @@ $(document).ready(function () {
     phone.attr('href', 'registration');
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-        phone.attr('href', 'tel: 0888 88 88 88');
+        phone.attr('href', 'tel: 0877 76 18 99');
     }
 
 });
